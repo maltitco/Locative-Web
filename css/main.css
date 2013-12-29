@@ -294,3 +294,20 @@ html, body{margin:0;padding:0;}
         page-break-after: avoid;
     }
 }
+
+.upper-row {
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    /*display: none;*/
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background: #32abdf;
+    font-weight: 200;
+}
+
+.upper-row a, a:visited, a:hover, a:active {
+    color: #c3e4fc;
+}

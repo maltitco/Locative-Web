@@ -21,15 +21,26 @@
 				<![endif]-->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.upper-row').delay(500).animate({
+            top: '0px'
+        }, 500);
+    });
+    </script>
 
 <!--==========================================================================
      Header Unit (LOGO & Slogan)
     ==========================================================================-->
+<div class="upper-row">
+    Have you tried out <a href="https://my.geofancy.com">https://my.geofancy.com</a>? Go check it out, it's free :-)
+</div>
 <div class="row-fluid"><!-- .row-fluid [start] -->
 	<div class="span12 slogan text-center"><!-- .span12 [start] -->
 		<img class="logo" src="image/logo.png" alt="logo">
@@ -115,7 +126,6 @@
      Javascript Unit
 				-connect your Google Analytics account easily.
     ==========================================================================-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
 				<script src="plugin/bootstrap/js/bootstrap.min.js"></script>
