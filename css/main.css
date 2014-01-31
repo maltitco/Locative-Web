@@ -94,7 +94,7 @@ textarea {
    ========================================================================== */
 
 html, body{margin:0;padding:0;}
-.slogan {background-color:#eee;padding-top:5%;padding-bottom:10%;border-top:6px solid #32abdf;}
+.slogan {background-color:#eee;padding-top:5%;padding-bottom:10%;}
 .footer {background-color:#eee;padding-top:0.1%; margin-top:5%;}
 .copyright {color:#999; padding-right:2%; margin-bottom:0;}
 .logo{padding-bottom:2%; height: 40px; margin-left: 20px;}
@@ -296,17 +296,15 @@ html, body{margin:0;padding:0;}
 }
 
 .upper-row {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    /*top: -40px;*/
     height: 40px;
-    /*display: none;*/
     padding: 5px 0 5px 0;
     font-size: 14px;
-    /*text-align: right;*/
     color: #fff;
     background: #32abdf;
     font-weight: 200;
+    opacity: 0.9;
 }
 
 .upper-row a, .upper-row a:visited, .upper-row a:hover, .upper-row a:active {
@@ -393,7 +391,7 @@ input, textarea, keygen, select, button, isindex {
 }
 
 .row-fluid {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 @media (max-width: 380px) {
