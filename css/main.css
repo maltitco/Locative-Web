@@ -341,10 +341,12 @@ input, textarea, keygen, select, button, isindex {
 
 .div-right {
     float: right;
+    padding-right: 55px;
 }
 
 .div-left {
     float: left;
+    padding-left: 55px;
 }
 
 .btn-success {
@@ -398,4 +400,10 @@ input, textarea, keygen, select, button, isindex {
     .navbar-brand {
         display: none;
     }
+}
+
+#iphone {
+  background: url(/image/iwhite.png) no-repeat 50%;
+  background-size: contain;
+  height: 600px;
 }
