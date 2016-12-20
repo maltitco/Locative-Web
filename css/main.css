@@ -437,3 +437,15 @@ input, textarea, keygen, select, button, isindex {
 #google-play-badge {
   width: 160px;
 }
+
+@media (max-width: 700px) {
+  .upper-row .div-left a {
+    display: none;
+  }
+  .div-left {
+    padding-left: 10px;
+  }
+  .div-right {
+    padding-right: 10px;
+  }
+}
