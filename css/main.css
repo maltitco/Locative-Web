@@ -425,7 +425,7 @@ input, textarea, keygen, select, button, isindex {
 }
 
 #iphone {
-  background: url(/image/iphone.png) no-repeat 50%;
+  background: url(/images/iphone.png) no-repeat 50%;
   background-size: contain;
   height: 700px;
 }
