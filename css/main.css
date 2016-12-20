@@ -438,6 +438,22 @@ input, textarea, keygen, select, button, isindex {
   width: 160px;
 }
 
+.hero-links {
+  text-align: center;
+}
+
+.hero-links a {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@media (min-width: 700px) {
+  .hero-links {
+    display: none;
+  }
+}
+
 @media (max-width: 700px) {
   .upper-row .div-left a {
     display: none;
