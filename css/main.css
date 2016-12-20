@@ -98,8 +98,13 @@ html, body{margin:0;padding:0;}
 .footer {background-color:#eee;padding-top:0.1%; margin-top:5%;}
 .copyright {color:#999; padding-right:2%; margin-bottom:0;}
 .logo{padding-bottom:2%; height: 40px; margin-left: 20px;}
-.info-container.left{margin-top:15%;padding-bottom:5%;}
-.info-container.right{margin-top:25%;}
+.info-container.left{
+  margin-top:40px;
+  padding-bottom:5%;
+}
+.info-container.right{
+  margin-top:40px;
+}
 
 .info-container .info {padding:5%;}
 .social{color:#333;padding-right:2%;}
@@ -295,6 +300,15 @@ html, body{margin:0;padding:0;}
     }
 }
 
+h2 {
+  font-size: 20px;
+}
+
+.hero-unit p {
+  font-size: 15px;
+  line-height: 22px ;
+}
+
 .upper-row {
     position: fixed;
     width: 100%;
@@ -388,6 +402,10 @@ input, textarea, keygen, select, button, isindex {
     font-weight: normal;
 }
 
+.navbar-item {
+  margin-left: 20px;
+}
+
 .div-left a:hover {
     text-decoration: none;
 }
@@ -402,8 +420,20 @@ input, textarea, keygen, select, button, isindex {
     }
 }
 
+.store-badges {
+  text-align: center;
+}
+
 #iphone {
-  background: url(/image/iwhite.png) no-repeat 50%;
+  background: url(/image/iphone.png) no-repeat 50%;
   background-size: contain;
-  height: 600px;
+  height: 700px;
+}
+
+#appstore-badge {
+  width: 140px;
+}
+
+#google-play-badge {
+  width: 160px;
 }
