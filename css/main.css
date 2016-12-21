@@ -19,6 +19,7 @@ textarea {
 }
 
 body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -317,12 +318,11 @@ h2 {
     font-size: 14px;
     color: #fff;
     background: #32abdf;
-    font-weight: 200;
     opacity: 0.9;
 }
 
 .upper-row a, .upper-row a:visited, .upper-row a:hover, .upper-row a:active {
-    color: #c3e4fc;
+    color: #fff;
 }
 
 .btn-default {
@@ -396,7 +396,6 @@ input, textarea, keygen, select, button, isindex {
 
 .navbar-brand {
     color: #fff !important;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: normal;
@@ -443,7 +442,6 @@ input, textarea, keygen, select, button, isindex {
 }
 
 .hero-links a {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   padding-left: 10px;
 }
