@@ -318,7 +318,9 @@ h2 {
     font-size: 14px;
     color: #fff;
     background: #32abdf;
-    opacity: 0.9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
 }
 
 .upper-row a, .upper-row a:visited, .upper-row a:hover, .upper-row a:active {
