@@ -439,23 +439,8 @@ input, textarea, keygen, select, button, isindex {
   width: 160px;
 }
 
-.hero-links {
-  text-align: center;
-}
-
-.hero-links a {
-  font-size: 14px;
-  padding-left: 10px;
-}
-
-@media (min-width: 700px) {
-  .hero-links {
-    display: none;
-  }
-}
-
-@media (max-width: 700px) {
-  .upper-row .div-left a {
+@media (max-width: 840px) {
+  .hideable {
     display: none;
   }
   .div-left {
@@ -464,4 +449,42 @@ input, textarea, keygen, select, button, isindex {
   .div-right {
     padding-right: 10px;
   }
+}
+
+.btn-upper-row {
+  text-shadow: none;
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn-upper-row:hover {
+  background: transparent;
+}
+
+.btn-upper-row:active {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn-group.open .dropdown-toggle {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn-upper-row:focus {
+  background: transparent;
+}
+
+.btn-group.open .btn.dropdown-toggle {
+    background-color: transparent;
+}
+
+.upper-row .dropdown-menu a {
+  color: #000;
+}
+
+.btn-upper-row span.caret {
+  border-top-color: #fff;
 }

@@ -29,10 +29,25 @@
             <div class="div-left">
                 <img class="logo" src="images/logo.png" alt="logo">
                 <a href="https://www.locative.io" class="navbar-brand">Locative</a>
-                <a href="https://blog.locative.io" class="navbar-item">Blog</a>
-                <a href="https://my.locative.io/developer" class="navbar-item">Developer</a>
-                <a href="https://status.locative.io" class="navbar-item">Status</a>
-                <a href="https://my.locative.io/legal" class="navbar-item">Legal</a>
+                <a href="https://blog.locative.io" class="navbar-item hideable">Blog</a>
+                <a href="https://my.locative.io/developer" class="navbar-item hideable">Developer</a>
+                <div class="btn-group hideable">
+                  <a class="btn btn-upper-row dropdown-toggle" data-toggle="dropdown" href="#">
+                    Help
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="https://status.locative.io">Status</a>
+                    </li>
+                    <li>
+                      <a href="https://my.locative.io/support">Support</a>
+                    </li>
+                    <li>
+                      <a href="https://my.locative.io/legal">Legal</a>
+                    </li>
+                  </ul>
+                </div>
             </div>
             <div class="div-right">
                 <button type="submit" onclick="window.location='https://my.locative.io/login'" class="btn btn-default">Sign in</button>
@@ -41,11 +56,6 @@
         </div>
         <div class="row-fluid"><!-- .row-fluid [start] -->
         	<div class="span4 info-container left">
-            <!-- <div class="hero-links">
-              <a href="https://blog.locative.io">Blog</a>
-              <a href="https://status.locative.io">Status</a>
-              <a href="https://my.locative.io/legal">Legal</a>
-            </div> -->
         		<div class="hero-unit info">
         			<h2>Automation par excellence</h2>
         			<p>Imagine you're coming home, won't it be great to automatically switch your Lights On?<br />May be you'll leave your house while in a hurry and forget to switch your lights off.<br /><br />No problem: Just configure your desired locations as a Geofences and let Locative do the rest! By calling a HTTP-URL (either via GET or POST request) you can trigger events on your server as you wish.</p>
