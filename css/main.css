@@ -475,6 +475,7 @@ input, textarea, keygen, select, button, isindex {
 
 .btn-upper-row:focus {
   background: transparent;
+  color: #fff;
 }
 
 .btn-group.open .btn.dropdown-toggle {
